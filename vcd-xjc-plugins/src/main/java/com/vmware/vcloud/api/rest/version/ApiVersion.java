@@ -159,6 +159,26 @@ public enum ApiVersion {
     /** Introduced in product version 10.0 */
     VERSION_33_0("33.0"),
 
+    VERSION_34_0("34.0"),//
+
+    VERSION_35_0("35.0"),//
+
+    VERSION_35_2("35.2"),//
+
+    VERSION_36_0("36.0"), // 10.3
+
+    VERSION_36_1("36.1"), // 10.3.1
+
+    VERSION_36_2("36.2"), // 10.3.2a
+
+    VERSION_36_3("36.3"), // 10.3.3
+
+    VERSION_37_0("37.0"), // 10.4
+
+    VERSION_37_1("37.1"), // 10.4.1
+
+    VERSION_ALPHA("ALPHA"), //
+
     /** Larger than all versions. Keep last! */
     VERSION_MAX("");
 
@@ -214,6 +234,12 @@ public enum ApiVersion {
         ADDED_UNIVERSAL_NETWORK_POOL_TO_EXT_PVDC(ApiVersion.VERSION_32_0),
         INCLUDE_API_VERSION_IN_AUTH_LOCATION(ApiVersion.VERSION_33_0),
         VM_SIZING_POLICY(ApiVersion.VERSION_33_0),
+        MULTI_SITE_SERVICE_ACCOUNTS(ApiVersion.VERSION_35_0),
+        BOOT_OPTIONS_EXT(ApiVersion.VERSION_35_0),
+        BOOT_FIRMWARE(ApiVersion.VERSION_35_0),
+        REPLICATION_TRACKING(ApiVersion.VERSION_35_0),
+        DISK_MIGRATION(ApiVersion.VERSION_35_0),
+        SITE_DB_COLLATION(ApiVersion.VERSION_35_0),
         ;
 
         private final ApiVersion mapping;
